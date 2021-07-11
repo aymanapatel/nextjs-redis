@@ -1,0 +1,9 @@
+= Next.js Voting with Redis
+Ayman Patel
+
+
+
+== Steps
+
+
+1. `vercel`
