@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react'
 import toast from 'react-hot-toast'
-import { LoadingSpinner } from '../../lib/loadingSpinner'
+import { LoadingSpinner } from '../lib/loadingSpinner'
 
 export const Subscription = () => {
     const subscribeInputRef = useRef(null)

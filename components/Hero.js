@@ -58,7 +58,6 @@ function Item({ isFirst, isLast, isReleased, hasVoted, feature }) {
     )
 }
 export const Hero = ({ features, ip }) => {
-    console.log(`Features ${features.ip}`)
     const { data, error } = useSWR('/api/features', fetcher, {
         initialData: { features },
     })

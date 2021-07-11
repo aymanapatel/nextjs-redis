@@ -1,14 +1,13 @@
 import Head from 'next/head'
-import clsx from 'clsx'
-import useSWR, { mutate } from 'swr'
-import toast from 'react-hot-toast'
 import redis from '../lib/redis'
 
-import { Subscription } from './components/Subscription'
-import { Header } from './components/Header'
-import { Footer } from './components/Footer'
-import { InsertBar } from './components/InsertBar'
-import { Hero } from './components/Hero'
+import {
+    Header,
+    Hero,
+    Footer,
+    InsertBar,
+    Subscription,
+} from '../components/index'
 
 export default function Roadmap({ features, ip }) {
     return (

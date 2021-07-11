@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import { LoadingSpinner } from '../../lib/loadingSpinner'
+import { LoadingSpinner } from '../lib/loadingSpinner'
 import { mutate } from 'swr'
 
 export const InsertBar = () => {
